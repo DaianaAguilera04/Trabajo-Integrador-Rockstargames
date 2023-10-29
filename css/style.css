@@ -68,6 +68,7 @@
     font-size: 16px;
     font-weight: bolder;
     margin: 0 0 25px;
+    cursor: pointer;
 }
 .main__btns{
     height: 2px;
@@ -82,19 +83,24 @@
     border: 1px solid #fff;
 }
 
-
+/* Bloque Cards */
 .cards{
     padding: 32px;
     background-color: #0b0b0b;
     color: #fff;
 }
+.cards__container-title{
+    background-color: #0b0b0b;
+}
 .cards__title{
     margin: 18px 0 ;
-    font-weight: bolder;    
+    font-weight: bolder;
+    background-color: #0b0b0b;  
 }
 .cards__container-cards{
     display: flex;
     flex-direction: column;
+    background-color: #0b0b0b;
 }
 .cards__card{
     width: 100%;
@@ -132,6 +138,27 @@
     display: flex;
     justify-content: center;
     padding: 30px;
+    background-color: #0b0b0b;
+}
+.cards__btn{
+    background-color: inherit;
+    border: 2px solid #0b0b0b;
+    border-bottom: 4px solid rgb(226, 196, 22);
+    color: #d8d8d8;
+    font-weight: bolder;
+    font-size: 17px;
+    cursor: pointer;
+}
+.cards__btn:hover{
+    background-color: rgb(226, 196, 22);
+    border: 2px solid rgb(226, 196, 22);
+    border-radius: 4px;
+    color: #000;
+    font-weight: bolder;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 3px 5px;
+    transition: all 0.5s;
 }
 
 
