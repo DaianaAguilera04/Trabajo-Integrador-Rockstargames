@@ -22,8 +22,6 @@
     flex-direction: row;
     justify-content: space-between;
     border-bottom: #282828;
-   
-
 }
 
 .header__logo {
@@ -34,6 +32,54 @@
     color: white;
     font-size: 30px;
     
+}
+/* bloque main */
+.main{
+    background-color: #000;
+}
+.main__img{
+    width: 100%;
+}
+.main__down{
+    padding: 30px;
+}
+.main__text{
+    margin-bottom: 20px;   
+    font-weight: bolder;
+    display: flex;
+    flex-direction: column;
+}
+.main__text a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+.main__description{
+    font-size: 32px;
+    margin-top: 10px;
+}
+.main__btn{
+    background-color: inherit;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+    font-weight: bolder;
+    margin: 0 0 25px;
+}
+.main__btns{
+    height: 2px;
+    width: 25px;
+    background-color: grey;
+    border: 1px solid grey;
+    cursor: pointer;
+    margin-right: 3px;
+}
+.main__btns:hover{
+    background-color: #fff;
+    border: 1px solid #fff;
 }
 
 
