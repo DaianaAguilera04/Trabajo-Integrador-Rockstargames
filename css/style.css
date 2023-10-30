@@ -166,26 +166,6 @@
     transition: all 0.5s;
 }
 
-.division__boton{
-    background: inherit;
-    color: #ffffffd5;
-    margin-top: 20px;
-    transition: all 0.5s;
-    font-size: 16px;
-    font-weight:bold;
-    border-bottom: 4px solid rgb(255, 187, 0) ;
-    border-top : 1px solid #000000af  ;
-    border-left : 1px solid #000000af  ;
-    border-right: 1px solid #000000af  ;
-
-}
-.division__boton:hover{
-    background: rgb(255, 187, 0);
-    border: 1px solid #fff;
-    color:#000;
-    border-radius: 7.5px;
-    
-}
 
 .container__galery-Title{
     background-color: #0b0b0b;
