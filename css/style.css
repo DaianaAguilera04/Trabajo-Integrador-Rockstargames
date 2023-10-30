@@ -34,7 +34,7 @@
     
 }
 /* bloque main */
-.main{
+.main *{
     background-color: #000;
 }
 .main__img{
@@ -47,7 +47,7 @@
     margin-bottom: 20px;   
     font-weight: bolder;
     display: flex;
-    flex-direction: column;
+    flex-direction: column;;
 }
 .main__text a{
     color: #fff;
@@ -69,6 +69,11 @@
     font-weight: bolder;
     margin: 0 0 25px;
     cursor: pointer;
+}
+.main__btn:hover{
+    background-color: rgb(199, 154, 8);
+    color: #000;
+    border: 1px solid rgb(199, 154, 8);
 }
 .main__btns{
     height: 2px;
