@@ -34,7 +34,7 @@
     
 }
 /* bloque main */
-.main{
+.main *{
     background-color: #000;
 }
 .main__img{
@@ -95,7 +95,7 @@
 .cards__title{
     margin: 18px 0 ;
     font-weight: bolder;
-    background-color: #0b0b0b;  
+    background-color: inherit;  
 }
 .cards__container-cards{
     display: flex;
@@ -108,6 +108,9 @@
     border: 1px solid rgb(51, 51, 51);
     background-color: #000;
     border-radius: 5px;
+}
+.cards__card *{
+    background-color: #000;
 }
 .cards__link{
     text-decoration: none;
@@ -143,10 +146,10 @@
 .cards__btn{
     background-color: inherit;
     border: 2px solid #0b0b0b;
-    border-bottom: 4px solid rgb(226, 196, 22);
+    border-bottom: 3px solid rgb(226, 196, 22);
     color: #d8d8d8;
     font-weight: bolder;
-    font-size: 17px;
+    font-size: 18px;
     cursor: pointer;
 }
 .cards__btn:hover{
@@ -155,9 +158,8 @@
     border-radius: 4px;
     color: #000;
     font-weight: bolder;
-    font-size: 20px;
-    cursor: pointer;
-    padding: 3px 5px;
+    font-size: 22px;
+    padding: 2px 5px;
     transition: all 0.5s;
 }
 
@@ -166,7 +168,7 @@
     color: #ffffffd5;
     margin-top: 20px;
     transition: all 0.5s;
-    font-size: 16px;
+    font-size: 18px;
     font-weight:bold;
     border-bottom: 4px solid rgb(255, 187, 0) ;
     border-top : 1px solid #000000af  ;
