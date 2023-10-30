@@ -26,6 +26,7 @@
     position: fixed;
     top: 0;
     left: 0;
+    z-index: 1000;
     
 }
 
@@ -228,7 +229,7 @@
 
 
 .footer {
-    background: #0b0b0b;
+    background: #000;
     padding: 62px 34px;
 
 }
@@ -236,6 +237,7 @@
 .footer__conteiner {
     display: flex;
     justify-content:space-between;
+    background: #000;
 
 }
 
@@ -243,6 +245,7 @@
     display: flex;
     flex-direction: column;   
     width: 40%;
+    background: #000;
     
 
 }
@@ -250,7 +253,7 @@
 
 .footer__contact {
     text-decoration: none;
-    font-size: 19.5px;
+    font-size: 16px;
     margin-bottom: 17px;
     color: #e8e8e8;
     transition: all 0.1s;
@@ -274,7 +277,7 @@
 
 .footer__idioma i {
     color: #e8e8e8;
-    font-size: 19px;
+    font-size: 12px;
     margin-right: 5px;
 }
 
