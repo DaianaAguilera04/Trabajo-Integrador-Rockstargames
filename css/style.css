@@ -17,11 +17,16 @@
 .header {
     background: #000;
     width: 100%;
-    padding: 12px 72px;
+    padding: 12px 30px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     border-bottom: #282828;
+    position: fixed;
+    top: 0;
+    left: 0;
+    
 }
 
 .header__logo {
@@ -36,9 +41,11 @@
 /* bloque main */
 .main *{
     background-color: #000;
+    
 }
 .main__img{
     width: 100%;
+    margin-top: 65px;
 }
 .main__down{
     padding: 30px;
