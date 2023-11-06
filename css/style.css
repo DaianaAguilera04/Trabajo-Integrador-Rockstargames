@@ -546,6 +546,10 @@
         padding: 26px 0px;
         margin: 0px 0px;
     }
+    .footer__social-links{
+        font-size: 24px;
+        
+    }
     .footer__conteiner-data {
         display: flex;
         flex-direction: row;
@@ -614,6 +618,7 @@
     .footer__info-links {
         width: 50%;
         margin: 0px 0px;
+        font-size: 15px;
     }
     .footer__social {
         flex-direction: row;
@@ -623,12 +628,34 @@
     .footer__conteiner-data {
         display: flex;
         flex-direction: row;
-        justify-content: center;
 
     }
     .footer__idioma{
         padding-right: 45px ;
     }
+    .footer__idioma-bottom{
+        font-size: 15px;
+    }
+    .footer__conteiner-contact{
+        justify-content: flex-start;
+        gap: 20px;
+    }
+    .footer__contact{
+        font-size: 20px;
+    }
+    .footer__rockstar-games{
+        font-size: 15px;
+        
+    }
+    .footer__country{
+        font-size: 15px;
+        justify-content: space-evenly;
+    }
+    .footer__Romano-number{
+        font-size: 15px;
+        
+    }
+
 }
 
 @media (min-width: 1125px){
