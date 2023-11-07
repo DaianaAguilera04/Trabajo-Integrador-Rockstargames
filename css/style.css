@@ -384,6 +384,8 @@
     font-size: 75%;
     margin-bottom: 20px;
     background: #000;
+    font-size: 12px;
+    gap:10px;
 }
 
 .footer__Romano-number {
@@ -397,6 +399,7 @@
     margin-bottom: 20px;
     background: #000;
 }
+
 
 /* Mobile L (425px - 767px)*/
 @media (min-width: 525px){
@@ -546,8 +549,9 @@
         padding: 26px 0px;
         margin: 0px 0px;
     }
-    .footer__social-links{
-        font-size: 24px;
+    .footer__social-links i{
+        font-size: 20px;
+        margin-right: 40px;
         
     }
     .footer__conteiner-data {
@@ -625,6 +629,7 @@
         justify-content: end;
         width: 480px;
     }
+
     .footer__conteiner-data {
         display: flex;
         flex-direction: row;
@@ -649,7 +654,8 @@
     }
     .footer__country{
         font-size: 15px;
-        justify-content: space-evenly;
+        gap:20px;
+        
     }
     .footer__Romano-number{
         font-size: 15px;
